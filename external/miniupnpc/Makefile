@@ -30,7 +30,7 @@ CC ?= gcc
 #AR = gar
 #CFLAGS = -O -g -DDEBUG
 CFLAGS ?= -O
-CFLAGS += -Wall
+CFLAGS += -Wall -Wimplicit-fallthrough=0
 CFLAGS += -W -Wstrict-prototypes
 CFLAGS += -fno-common
 CFLAGS += -DMINIUPNPC_SET_SOCKET_TIMEOUT

@@ -5,8 +5,8 @@
 # This Makefile is made for MinGW
 #
 CC = gcc
-#CFLAGS = -Wall -g -DDEBUG -D_WIN32_WINNT=0X501
-CFLAGS = -Wall -Os -DNDEBUG -D_WIN32_WINNT=0X501
+#CFLAGS = -Wall -Wimplicit-fallthrough=0 -g -DDEBUG -D_WIN32_WINNT=0X501
+CFLAGS = -Wall -Wimplicit-fallthrough=0 -Os -DNDEBUG -D_WIN32_WINNT=0X501
 LDLIBS = -lws2_32 -liphlpapi
 # -lwsock32
 # -liphlpapi is needed for GetBestRoute() and GetIpAddrTable()
