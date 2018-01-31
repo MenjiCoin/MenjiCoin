@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "microcoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000139029b2e4c0281c0281c0b02e7c53291a94d1docbff8883f8024f5142ee494ffbbd08807121011977c73df3e4d4203af28446ecee3ba1e5967e3b8cc62979d9dbb25199574b59";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000139029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018ad1428690e8e70919c6fb9ce186f3ab8220d06fca11d392e3f0058bbb1f29dc";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
