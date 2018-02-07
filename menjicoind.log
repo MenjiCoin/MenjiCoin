@@ -1,0 +1,16 @@
+2018-Feb-07 11:45:20.074737 INFO [daemon] menjicoin v0.0.1.1()
+2018-Feb-07 11:45:20.075068 INFO [daemon] Module folder: ./menjicoind
+2018-Feb-07 11:45:20.076281 INFO [daemon] Initializing p2p server...
+2018-Feb-07 11:45:20.076544 INFO [node_server] Binding on 0.0.0.0:45454
+2018-Feb-07 11:45:20.076652 INFO [node_server] Net service binded on 0.0.0.0:45454
+2018-Feb-07 11:45:20.076755 INFO [node_server] Attempting to add IGD port mapping.
+2018-Feb-07 11:45:24.083253 INFO [node_server] No IGD was found.
+2018-Feb-07 11:45:24.083373 INFO [daemon] P2p server initialized OK
+2018-Feb-07 11:45:24.083409 INFO [daemon] Initializing core...
+2018-Feb-07 11:45:24.083597 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Feb-07 11:45:24.126827 ERROR [Blockchain] Coinbase transaction spend too much money: 351843.72088831, block reward is 109.55951136
+2018-Feb-07 11:45:24.127051 INFO [Blockchain] Block <15a362da62b77646041ef136aadc0050e038dd7e040d3a08f3667d2fbffe1653> has invalid miner transaction
+2018-Feb-07 11:45:24.127199 ERROR [Blockchain] Failed to add genesis block to blockchain
+2018-Feb-07 11:45:24.127309 ERROR [core] Failed to initialize blockchain storage
+2018-Feb-07 11:45:24.127406 ERROR [daemon] Failed to initialize core
+2018-Feb-07 11:45:24.127551 INFO [miner] Mining has been stopped, 0 finished
